@@ -86,7 +86,7 @@
         }}
       </p>
     </static-card>
-    <static-card>
+    <!-- <static-card>
       <h3>{{ $t('Google Analyticsの利用について') }}</h3>
       <p>
         {{
@@ -161,7 +161,7 @@
           </external-link>
         </template>
       </i18n>
-    </static-card>
+    </static-card> -->
     <static-card>
       <h3>{{ $t('免責事項') }}</h3>
       <p>

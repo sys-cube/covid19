@@ -35,12 +35,12 @@
           'number-of-reports-to-covid19-consultation-desk'
       "
     />
-    <metro-card
+    <!-- <metro-card
       v-else-if="
         this.$route.params.card == 'predicted-number-of-toei-subway-passengers'
       "
     />
-    <agency-card v-else-if="this.$route.params.card == 'agency'" />
+    <agency-card v-else-if="this.$route.params.card == 'agency'" /> -->
   </div>
 </template>
 
@@ -58,8 +58,8 @@ import TestedNumberCard from '@/components/cards/TestedNumberCard.vue'
 import InspectionPersonsNumberCard from '@/components/cards/InspectionPersonsNumberCard.vue'
 import TelephoneAdvisoryReportsNumberCard from '@/components/cards/TelephoneAdvisoryReportsNumberCard.vue'
 import ConsultationDeskReportsNumberCard from '@/components/cards/ConsultationDeskReportsNumberCard.vue'
-import MetroCard from '@/components/cards/MetroCard.vue'
-import AgencyCard from '@/components/cards/AgencyCard.vue'
+// import MetroCard from '@/components/cards/MetroCard.vue'
+// import AgencyCard from '@/components/cards/AgencyCard.vue'
 
 export default {
   components: {
@@ -71,9 +71,9 @@ export default {
     TestedNumberCard,
     InspectionPersonsNumberCard,
     TelephoneAdvisoryReportsNumberCard,
-    ConsultationDeskReportsNumberCard,
-    MetroCard,
-    AgencyCard
+    ConsultationDeskReportsNumberCard
+    // MetroCard,
+    // AgencyCard
   },
   data() {
     let title, updatedAt
@@ -114,14 +114,14 @@ export default {
         title = this.$t('新型コロナ受診相談窓口相談件数')
         updatedAt = Data.querents.date
         break
-      case 'predicted-number-of-toei-subway-passengers':
-        title = this.$t('都営地下鉄の利用者数の推移')
-        updatedAt = MetroData.date
-        break
-      case 'agency':
-        title = this.$t('都庁来庁者数の推移')
-        updatedAt = agencyData.date
-        break
+      // case 'predicted-number-of-toei-subway-passengers':
+      //   title = this.$t('都営地下鉄の利用者数の推移')
+      //   updatedAt = MetroData.date
+      //   break
+      // case 'agency':
+      //   title = this.$t('都庁来庁者数の推移')
+      //   updatedAt = agencyData.date
+      //   break
     }
 
     const data = {

@@ -34,7 +34,7 @@
       </v-icon>
 
       <nav class="SideNavigation-Menu">
-        <div class="SideNavigation-Language">
+        <!-- <div class="SideNavigation-Language">
           <div
             v-if="this.$i18n.locales.length > 1"
             class="SideNavigation-Language"
@@ -44,7 +44,7 @@
             </label>
             <language-selector />
           </div>
-        </div>
+        </div> -->
         <menu-list :items="items" @click="$emit('closeNavi', $event)" />
       </nav>
 
