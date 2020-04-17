@@ -8,9 +8,7 @@
         <external-link
           url="https://www.pref.wakayama.lg.jp/prefg/060100/d00203270.html"
           :icon-size="24"
-          >{{
-            $t('新型コロナウイルス発生に関する県内事業者への「相談窓口」の開設')
-          }}
+          >{{ $t('新型コロナウイルス発生に関する県内事業者への「相談窓口」の開設') }}
         </external-link>
       </h3>
       <p>
@@ -30,7 +28,11 @@
         </external-link>
       </h3>
       <p>
-        {{ $t('各団体による相談窓口、関連対策へのリンクが記載されています。') }}
+        {{
+          $t(
+            '各団体による相談窓口、関連対策へのリンクが記載されています。'
+          )
+        }}
       </p>
     </static-card>
     <static-card>
@@ -70,7 +72,9 @@
         <external-link
           url="https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/0000164708_00001.html#hatarakukata"
           :icon-size="24"
-          >{{ $t('働く方と経営者の皆様へ（厚生労働省ページ）（外部リンク）') }}
+          >{{
+            $t('働く方と経営者の皆様へ（厚生労働省ページ）（外部リンク）')
+          }}
         </external-link>
       </h3>
       <p>
@@ -86,11 +90,7 @@
         <external-link
           url="https://jsite.mhlw.go.jp/wakayama-roudoukyoku/newpage_00100.html"
           :icon-size="24"
-          >{{
-            $t(
-              '小学校等の臨時休業に伴う支援等相談窓口（厚生労働省和歌山労働局）（外部リンク）'
-            )
-          }}
+          >{{ $t('小学校等の臨時休業に伴う支援等相談窓口（厚生労働省和歌山労働局）（外部リンク）') }}
         </external-link>
       </h3>
       <p>
