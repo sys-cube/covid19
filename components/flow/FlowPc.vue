@@ -5,7 +5,7 @@
       <p>
         新型コロナウイルス感染症についてのご相談は、最寄りの保健所又は県庁健康推進課にご連絡ください。
       </p>
-      <table :class="$style.InquiryCounterTable">
+      <table>
         <tbody>
           <tr>
             <th />
@@ -196,7 +196,7 @@ export default {
   }
 }
 
-.InquiryCounterTable {
+table {
   width: 100%;
   border-collapse: collapse;
   border: 2px solid #008830;
