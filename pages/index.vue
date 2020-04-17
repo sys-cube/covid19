@@ -42,9 +42,9 @@
       <!-- 新型コロナ受診相談窓口相談件数 -->
       <consultation-desk-reports-number-card />
       <!-- 都営地下鉄の利用者数の推移 -->
-      <!-- <metro-card /> -->
+      <metro-card />
       <!-- 都庁来庁者数の推移 -->
-      <!-- <agency-card /> -->
+      <agency-card />
     </v-row>
     <v-divider />
   </div>
@@ -67,8 +67,8 @@ import InspectionPersonsNumberCard from '@/components/cards/InspectionPersonsNum
 import TestedNumberCard from '@/components/cards/TestedNumberCard.vue'
 import TelephoneAdvisoryReportsNumberCard from '@/components/cards/TelephoneAdvisoryReportsNumberCard.vue'
 import ConsultationDeskReportsNumberCard from '@/components/cards/ConsultationDeskReportsNumberCard.vue'
-// import MetroCard from '@/components/cards/MetroCard.vue'
-// import AgencyCard from '@/components/cards/AgencyCard.vue'
+import MetroCard from '@/components/cards/MetroCard.vue'
+import AgencyCard from '@/components/cards/AgencyCard.vue'
 import { convertDatetimeToISO8601Format } from '@/utils/formatDate'
 
 export default Vue.extend({
@@ -84,9 +84,9 @@ export default Vue.extend({
     InspectionPersonsNumberCard,
     TestedNumberCard,
     TelephoneAdvisoryReportsNumberCard,
-    ConsultationDeskReportsNumberCard
-    // MetroCard,
-    // AgencyCard
+    ConsultationDeskReportsNumberCard,
+    MetroCard,
+    AgencyCard
   },
   data() {
     const data = {
