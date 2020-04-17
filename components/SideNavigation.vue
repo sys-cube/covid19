@@ -165,8 +165,7 @@ export default Vue.extend({
         },
         {
           title: this.$t('東京都新型コロナウイルス感染症対策本部報'),
-          link:
-            'https://www.pref.wakayama.lg.jp/prefg/000200/pressindex.html'
+          link: 'https://www.pref.wakayama.lg.jp/prefg/000200/pressindex.html'
         },
         {
           title: this.$t('知事からのメッセージ'),
