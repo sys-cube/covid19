@@ -27,24 +27,8 @@
       <confirmed-cases-details-card />
       <!-- 陽性患者数 -->
       <confirmed-cases-number-card />
-      <!-- 陽性患者の属性 -->
-      <confirmed-cases-attributes-card />
-      <!-- 区市町村別患者数 -->
-      <confirmed-cases-by-municipalities-card />
-      <!-- 検査実施状況 -->
-      <tested-cases-details-card />
       <!-- 検査実施人数 -->
       <inspection-persons-number-card />
-      <!-- 検査実施件数 -->
-      <tested-number-card />
-      <!-- 新型コロナコールセンター相談件数 -->
-      <telephone-advisory-reports-number-card />
-      <!-- 新型コロナ受診相談窓口相談件数 -->
-      <consultation-desk-reports-number-card />
-      <!-- 都営地下鉄の利用者数の推移 -->
-      <metro-card />
-      <!-- 都庁来庁者数の推移 -->
-      <agency-card />
     </v-row>
     <v-divider />
   </div>
