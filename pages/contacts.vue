@@ -17,18 +17,18 @@
           <tr>
             <td class="content" v-bind="headingAttrs">和歌山市</td>
             <td class="url">
-              <a target="_blank" href="http://www.city.iwade.lg.jp/corona/"
-                >http://www.city.iwade.lg.jp/corona/</a
+              <a
+                target="_blank"
+                href="http://www.city.wakayama.wakayama.jp/1027184/index.html"
+                >http://www.city.wakayama.wakayama.jp/1027184/index.html</a
               >
             </td>
           </tr>
           <tr>
             <td class="content" v-bind="headingAttrs">岩出市</td>
             <td class="url">
-              <a
-                target="_blank"
-                href="http://www.city.wakayama.wakayama.jp/1027184/index.html"
-                >http://www.city.wakayama.wakayama.jp/1027184/index.html</a
+              <a target="_blank" href="http://www.city.iwade.lg.jp/corona/"
+                >http://www.city.iwade.lg.jp/corona/</a
               >
             </td>
           </tr>
