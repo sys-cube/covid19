@@ -27,6 +27,8 @@
       <confirmed-cases-details-card />
       <!-- 陽性患者数 -->
       <confirmed-cases-number-card />
+      <!-- 陽性患者の属性 -->
+      <confirmed-cases-attributes-card />
       <!-- 検査実施人数 -->
       <inspection-persons-number-card />
     </v-row>
@@ -44,6 +46,7 @@ import Data from '@/data/data.json'
 import News from '@/data/news.json'
 import ConfirmedCasesDetailsCard from '@/components/cards/ConfirmedCasesDetailsCard.vue'
 import ConfirmedCasesNumberCard from '@/components/cards/ConfirmedCasesNumberCard.vue'
+import ConfirmedCasesAttributesCard from '@/components/cards/ConfirmedCasesAttributesCard.vue'
 import InspectionPersonsNumberCard from '@/components/cards/InspectionPersonsNumberCard.vue'
 import { convertDatetimeToISO8601Format } from '@/utils/formatDate'
 
@@ -54,6 +57,7 @@ export default Vue.extend({
     StaticInfo,
     ConfirmedCasesDetailsCard,
     ConfirmedCasesNumberCard,
+    ConfirmedCasesAttributesCard,
     InspectionPersonsNumberCard
   },
   data() {
