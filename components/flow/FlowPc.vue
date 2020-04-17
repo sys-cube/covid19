@@ -5,7 +5,7 @@
       <p>
         新型コロナウイルス感染症についてのご相談は、最寄りの保健所又は県庁健康推進課にご連絡ください。
       </p>
-      <table>
+      <table :class="$style.InquiryCounterTable">
         <tbody>
           <tr>
             <th />
@@ -23,9 +23,7 @@
             <td>和歌山市保健所</td>
             <td>和歌山市吹上5－2－15</td>
             <td>TEL 073－488－5112<br />FAX 073－431－9980</td>
-            <td>
-              <p>9:00～17:45</p>
-            </td>
+            <td>9:00～17:45</td>
           </tr>
           <tr>
             <td>海南保健所</td>
@@ -95,9 +93,6 @@
           </tr>
         </tbody>
       </table>
-      <p>
-        ※緊急の場合は、受付時間外でも案内される電話番号にかければ、職員に相談できます。（ただし、FAXを除きます）
-      </p>
     </div>
   </div>
 </template>
@@ -196,7 +191,7 @@ export default {
   }
 }
 
-table {
+.InquiryCounterTable {
   width: 100%;
   border-collapse: collapse;
   border: 2px solid #008830;
