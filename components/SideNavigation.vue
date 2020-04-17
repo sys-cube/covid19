@@ -158,11 +158,6 @@ export default Vue.extend({
           link: this.localePath('/parent')
         },
         {
-          icon: 'mdi-account-multiple',
-          title: this.$t('都民の皆様へ'),
-          link: 'https://www.pref.wakayama.lg.jp/prefg/000200/covid19.html'
-        },
-        {
           icon: 'mdi-domain',
           title: this.$t('企業の皆様・はたらく皆様へ'),
           link: this.localePath('/worker'),
