@@ -8,9 +8,8 @@
         <external-link
           url="https://www.pref.wakayama.lg.jp/prefg/060100/d00203270.html"
           :icon-size="24"
-          >{{ $t('新型コロナウイルス発生に関する県内事業者への「相談窓口」の開設') }}
-        </external-link>
-      </h3>
+          {{ $t('新型コロナウイルス発生に関する県内事業者への「相談窓口」の開設') }}
+        </external-link/></h3>
       <p>
         {{
           $t(
@@ -24,9 +23,8 @@
         <external-link
           url="https://www.wakayama-sangyo.com/2020/03/09/%e6%96%b0%e5%9e%8b%e3%82%b3%e3%83%ad%e3%83%8a%e3%82%a6%e3%82%a4%e3%83%ab%e3%82%b9%e3%81%ab%e9%96%a2%e3%81%99%e3%82%8b%e7%9c%8c%e5%86%85%e4%ba%8b%e6%a5%ad%e8%80%85%e5%90%91%e3%81%91%e6%94%af%e6%8f%b4/"
           :icon-size="24"
-          >{{ $t('県内事業者向け支援策(外部リンク)') }}
-        </external-link>
-      </h3>
+          {{ $t('県内事業者向け支援策(外部リンク)') }}
+        </external-link/></h3>
       <p>
         {{
           $t(
@@ -40,9 +38,8 @@
         <external-link
           url="https://www.pref.wakayama.lg.jp/prefg/060300/gyoumu/kinyuu/sangyoushien.html"
           :icon-size="24"
-          >{{ $t('中小企業者への金融支援について') }}
-        </external-link>
-      </h3>
+          {{ $t('中小企業者への金融支援について') }}
+        </external-link/></h3>
       <p>
         {{
           $t(
@@ -56,9 +53,8 @@
         <external-link
           url="https://www.pref.wakayama.lg.jp/prefg/060600/d00203536.html"
           :icon-size="24"
-          >{{ $t('テレワーク緊急導入支援プログラムのご紹介') }}
-        </external-link>
-      </h3>
+          {{ $t('テレワーク緊急導入支援プログラムのご紹介') }}
+        </external-link/></h3>
       <p>
         {{
           $t(
@@ -72,11 +68,10 @@
         <external-link
           url="https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/0000164708_00001.html#hatarakukata"
           :icon-size="24"
-          >{{
+          {{
             $t('働く方と経営者の皆様へ（厚生労働省ページ）（外部リンク）')
           }}
-        </external-link>
-      </h3>
+        </external-link/></h3>
       <p>
         {{
           $t(
@@ -90,9 +85,8 @@
         <external-link
           url="https://jsite.mhlw.go.jp/wakayama-roudoukyoku/newpage_00100.html"
           :icon-size="24"
-          >{{ $t('小学校等の臨時休業に伴う支援等相談窓口（厚生労働省和歌山労働局）（外部リンク）') }}
-        </external-link>
-      </h3>
+          {{ $t('小学校等の臨時休業に伴う支援等相談窓口（厚生労働省和歌山労働局）（外部リンク）') }}
+        </external-link/></h3>
       <p>
         {{
           $t(
