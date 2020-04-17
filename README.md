@@ -1,4 +1,4 @@
-# 東京都 新型コロナウイルス感染症対策サイト
+# 和歌山県 新型コロナウイルス感染症対策サイト
 
 ![](https://github.com/tokyo-metropolitan-gov/covid19/workflows/production%20deploy/badge.svg)
 
