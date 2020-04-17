@@ -12,7 +12,7 @@
           mdi-bullhorn
         </v-icon>
         <external-link
-          url="https://www.pref.wakayama.lg.jp/prefg/011900/d00203907.html"
+          url="https://www.bousai.metro.tokyo.lg.jp/1007617/index.html"
         >
           {{ $t('東京都緊急事態措置について') }}
         </external-link>

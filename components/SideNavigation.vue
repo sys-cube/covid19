@@ -50,19 +50,19 @@
 
       <footer class="SideNavigation-Footer">
         <div class="SideNavigation-Social">
-<!--          <a-->
-<!--            href="https://line.me/R/ti/p/%40822sysfc"-->
-<!--            target="_blank"-->
-<!--            rel="noopener noreferrer"-->
-<!--            class="SideNavigation-SocialLink"-->
-<!--          >-->
-<!--            <picture>-->
-<!--              <source srcset="/line.webp" type="image/webp" />-->
-<!--              <img src="/line.png" alt="LINE" />-->
-<!--            </picture>-->
-<!--          </a>-->
           <a
-            href="https://twitter.com/wakayamapref"
+            href="https://line.me/R/ti/p/%40822sysfc"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="SideNavigation-SocialLink"
+          >
+            <picture>
+              <source srcset="/line.webp" type="image/webp" />
+              <img src="/line.png" alt="LINE" />
+            </picture>
+          </a>
+          <a
+            href="https://twitter.com/tokyo_bousai"
             target="_blank"
             rel="noopener noreferrer"
             class="SideNavigation-SocialLink"
@@ -73,7 +73,7 @@
             </picture>
           </a>
           <a
-            href="https://www.facebook.com/pref.wakayama"
+            href="https://www.facebook.com/tochokoho"
             target="_blank"
             rel="noopener noreferrer"
             class="SideNavigation-SocialLink"
@@ -143,7 +143,7 @@ export default Vue.extend({
       return [
         {
           icon: 'mdi-chart-timeline-variant',
-          title: this.$t('県内の最新感染動向'),
+          title: this.$t('都内の最新感染動向'),
           link: this.localePath('/')
         },
         {
@@ -159,8 +159,8 @@ export default Vue.extend({
         },
         {
           icon: 'mdi-account-multiple',
-          title: this.$t('県民の皆様へ'),
-          link: 'https://www.pref.wakayama.lg.jp/prefg/000200/covid19.html'
+          title: this.$t('都民の皆様へ'),
+          link: 'https://www.metro.tokyo.lg.jp/tosei/tosei/news/2019-ncov.html'
         },
         {
           icon: 'mdi-domain',
@@ -169,14 +169,24 @@ export default Vue.extend({
           divider: true
         },
         {
-          title: this.$t('和歌山県新型コロナウイルス感染症対策本部報'),
+          title: this.$t('東京都新型コロナウイルス感染症対策本部報'),
           link:
-            'https://www.pref.wakayama.lg.jp/prefg/000200/pressindex.html'
+            'https://www.bousai.metro.tokyo.lg.jp/taisaku/saigai/1007261/index.html'
+        },
+        {
+          title: this.$t('新型コロナウイルス感染症に関する東京都の支援策'),
+          link:
+            'https://www.seisakukikaku.metro.tokyo.lg.jp/information/corona-support.html'
+        },
+        {
+          title: this.$t('東京都主催等 中止又は延期するイベント等'),
+          link:
+            'https://www.seisakukikaku.metro.tokyo.lg.jp/information/event00.html'
         },
         {
           title: this.$t('知事からのメッセージ'),
           link:
-            'https://www.pref.wakayama.lg.jp/chiji/message/message_backn.html'
+            'https://www.metro.tokyo.lg.jp/tosei/governor/governor/katsudo/2020/03/03_00.html'
         },
         {
           title: this.$t('当サイトについて'),
@@ -187,8 +197,8 @@ export default Vue.extend({
           link: this.localePath('/contacts')
         },
         {
-          title: this.$t('和歌山県公式ホームページ'),
-          link: 'https://www.pref.wakayama.lg.jp/'
+          title: this.$t('東京都公式ホームページ'),
+          link: 'https://www.metro.tokyo.lg.jp/'
         }
       ]
     }
