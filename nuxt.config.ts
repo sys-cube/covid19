@@ -33,17 +33,17 @@ const config: Configuration = {
       {
         hid: 'twitter:site',
         name: 'twitter:site',
-        content: '@tokyo_bousai'
+        content: '@wakayamapref'
       },
       {
         hid: 'twitter:creator',
         name: 'twitter:creator',
-        content: '@tokyo_bousai'
+        content: '@wakayamapref'
       },
       {
         hid: 'fb:app_id',
         property: 'fb:app_id',
-        content: '2879625188795443'
+        content: ''
       },
       {
         hid: 'note:card',
