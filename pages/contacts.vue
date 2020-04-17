@@ -8,120 +8,290 @@
         <thead>
           <tr>
             <th class="text-center" scope="col">
-              {{ $t('お問い合わせ内容') }}
+              {{ $t('区市町村') }}
             </th>
-            <th class="text-center" scope="col">{{ $t('局名') }}</th>
-            <th class="text-center tel" scope="col">{{ $t('電話番号') }}</th>
+            <th class="text-center url" scope="col">{{ $t('URL') }}</th>
           </tr>
         </thead>
         <tbody>
           <tr>
-            <td class="content" v-bind="headingAttrs">
-              {{ $t('サイト全般に関すること') }}
-            </td>
-            <td class="bureau">{{ $t('政策企画局') }}</td>
-            <td class="tel"><a href="tel:03-5388-2171">03-5388-2171</a></td>
-          </tr>
-          <tr>
-            <td class="content" v-bind="headingAttrs">
-              {{ $t('サイトの技術面に関すること') }}<br />{{
-                $t('オープンデータ、オープンソースに関すること')
-              }}
-            </td>
-            <td class="bureau">{{ $t('戦略政策情報推進本部') }}</td>
-            <td class="tel"><a href="tel:03-5320-7930">03-5320-7930</a></td>
-          </tr>
-          <tr>
-            <td class="content" v-bind="headingAttrs">
-              {{ $t('新型コロナウイルス感染症対策本部会議に関すること')
-              }}<br />{{ $t('都庁来庁者データに関すること') }}
-            </td>
-            <td class="bureau">{{ $t('総務局') }}</td>
-            <td class="tel">
-              {{ $t('感染症対策本部会議に関すること') }}<br /><a
-                href="tel:03-5388-2453"
-                >03-5388-2453</a
-              ><br />
-              {{ $t('都庁来庁者データに関すること') }}<br /><a
-                href="tel:03-5388-2319"
-                >03-5388-2319</a
+            <td class="content" v-bind="headingAttrs">和歌山市</td>
+            <td class="url">
+              <a target="_blank" href="http://www.city.iwade.lg.jp/corona/"
+                >http://www.city.iwade.lg.jp/corona/</a
               >
             </td>
           </tr>
           <tr>
-            <td class="content" v-bind="headingAttrs">
-              {{ $t('都公式ホームページに関すること') }}<br />{{
-                $t('都公式SNSアカウントに関すること')
-              }}
-            </td>
-            <td class="bureau">{{ $t('生活文化局') }}</td>
-            <td class="tel">
-              {{ $t('都公式ホームページに関すること') }}<br /><a
-                href="tel:03-5388-3061"
-                >03-5388-3061</a
-              ><br />
-              {{ $t('都公式SNSアカウントに関すること') }}<br /><a
-                href="tel:03-5388-3094"
-                >03-5388-3094</a
+            <td class="content" v-bind="headingAttrs">岩出市</td>
+            <td class="url">
+              <a
+                target="_blank"
+                href="http://www.city.wakayama.wakayama.jp/1027184/index.html"
+                >http://www.city.wakayama.wakayama.jp/1027184/index.html</a
               >
             </td>
           </tr>
           <tr>
-            <td class="content" v-bind="headingAttrs">
-              {{ $t('中小企業支援、テレワークに関すること') }}
-            </td>
-            <td class="bureau">{{ $t('産業労働局') }}</td>
-            <td class="tel">
-              {{ $t('資金繰りに関すること') }}<br /><a href="tel:03-5320-4877"
-                >03-5320-4877</a
-              ><br />
-              {{ $t('経営に関すること') }}<br /><a href="tel:03-3251-7881"
-                >03-3251-7881</a
-              ><br />
-              {{ $t('労働関係に関すること') }}<br /><a href="tel:0570-00-6110"
-                >0570-00-6110</a
+            <td class="content" v-bind="headingAttrs">新宮市</td>
+            <td class="url">
+              <a
+                target="_blank"
+                href="https://www.city.shingu.lg.jp/forms/info/info.aspx?info_id=46299"
+                >https://www.city.shingu.lg.jp/forms/info/info.aspx?info_id=46299</a
               >
             </td>
           </tr>
           <tr>
-            <td class="content" v-bind="headingAttrs">
-              {{ $t('新型コロナウイルス感染症の予防・検査・医療に関すること') }}
-            </td>
-            <td class="bureau">{{ $t('福祉保健局') }}</td>
-            <td class="tel">
-              <a href="tel:0570-550-571">0570-550-571</a><br />
-              {{ $t('（新型コロナコールセンター）') }}
-              <p class="caution">
-                {{
-                  $t(
-                    '電話のおかけ間違いが多くなっております。発信の際は今一度電話番号をお確かめの上、お間違えのないようお願いいたします。'
-                  )
-                }}
-              </p>
+            <td class="content" v-bind="headingAttrs">白浜町</td>
+            <td class="url">
+              <a
+                target="_blank"
+                href="http://www.town.shirahama.wakayama.jp/soshiki/jumin/kenko/gyomu/1580283329996.html"
+                >http://www.town.shirahama.wakayama.jp/soshiki/jumin/kenko/gyomu/1580283329996.html</a
+              >
             </td>
           </tr>
           <tr>
-            <td class="content" v-bind="headingAttrs">
-              {{ $t('都立学校に関すること') }}
+            <td class="content" v-bind="headingAttrs">印南町</td>
+            <td class="url">
+              <a
+                target="_blank"
+                href="http://www.town.wakayama-inami.lg.jp/contents_detail.php?frmId=1074"
+                >http://www.town.wakayama-inami.lg.jp/contents_detail.php?frmId=1074</a
+              >
             </td>
-            <td class="bureau">{{ $t('教育庁') }}</td>
-            <td class="tel"><a href="tel:03-5320-6705">03-5320-6705</a></td>
           </tr>
           <tr>
-            <td class="content" v-bind="headingAttrs">
-              {{ $t('スムーズビズに関すること') }}
+            <td class="content" v-bind="headingAttrs">日高川町</td>
+            <td class="url">
+              <a
+                target="_blank"
+                href="http://www.town.hidakagawa.lg.jp/town/sec_hokenfukushi/coronavirus.html"
+                >http://www.town.hidakagawa.lg.jp/town/sec_hokenfukushi/coronavirus.html</a
+              >
             </td>
-            <td class="bureau">{{ $t('都市整備局') }}</td>
-            <td class="tel"><a href="tel:03-5388-3317">03-5388-3317</a></td>
           </tr>
           <tr>
-            <td class="content" v-bind="headingAttrs">
-              {{ $t('都営交通に関すること') }}
+            <td class="content" v-bind="headingAttrs">有田川町</td>
+            <td class="url">
+              <a
+                target="_blank"
+                href="https://www.town.aridagawa.lg.jp/top/kinkyu/5149.html"
+                >https://www.town.aridagawa.lg.jp/top/kinkyu/5149.html</a
+              >
             </td>
-            <td class="bureau">{{ $t('交通局') }}</td>
-            <td class="tel">
-              <a href="tel:03-3816-5700">03-3816-5700</a><br />
-              {{ $t('（都営交通お客様センター）') }}
+          </tr>
+          <tr>
+            <td class="content" v-bind="headingAttrs">紀美野町</td>
+            <td class="url">
+              <a
+                target="_blank"
+                href="https://www.town.kimino.wakayama.jp/sagasu/hokenfukushika/coronavirus/1916.html"
+                >https://www.town.kimino.wakayama.jp/sagasu/hokenfukushika/coronavirus/1916.html</a
+              >
+            </td>
+          </tr>
+          <tr>
+            <td class="content" v-bind="headingAttrs">御坊市</td>
+            <td class="url">
+              <a
+                target="_blank"
+                href="http://www.city.gobo.wakayama.jp/kinkyu/1582878419809.html"
+                >http://www.city.gobo.wakayama.jp/kinkyu/1582878419809.html</a
+              >
+            </td>
+          </tr>
+          <tr>
+            <td class="content" v-bind="headingAttrs">紀の川市</td>
+            <td class="url">
+              <a
+                target="_blank"
+                href="http://www.city.kinokawa.lg.jp/kouhou/corona-kanren.html"
+                >http://www.city.kinokawa.lg.jp/kouhou/corona-kanren.html</a
+              >
+            </td>
+          </tr>
+          <tr>
+            <td class="content" v-bind="headingAttrs">有田市</td>
+            <td class="url">
+              <a target="_blank" href="https://www.city.arida.lg.jp/index.html"
+                >https://www.city.arida.lg.jp/index.html</a
+              >
+            </td>
+          </tr>
+          <tr>
+            <td class="content" v-bind="headingAttrs">那智勝浦町</td>
+            <td class="url">
+              <a
+                target="_blank"
+                href="https://www.town.nachikatsuura.wakayama.jp/info/849"
+                >https://www.town.nachikatsuura.wakayama.jp/info/849</a
+              >
+            </td>
+          </tr>
+          <tr>
+            <td class="content" v-bind="headingAttrs">串本町</td>
+            <td class="url">
+              <a
+                target="_blank"
+                href="https://www.town.kushimoto.wakayama.jp/fukushi/shingatakorona-taisaku.html"
+                >https://www.town.kushimoto.wakayama.jp/fukushi/shingatakorona-taisaku.html</a
+              >
+            </td>
+          </tr>
+          <tr>
+            <td class="content" v-bind="headingAttrs">北山村</td>
+            <td class="url">
+              <a target="_blank" href="https://www.vill.kitayama.wakayama.jp/"
+                >https://www.vill.kitayama.wakayama.jp/</a
+              >
+            </td>
+          </tr>
+          <tr>
+            <td class="content" v-bind="headingAttrs">古座川町</td>
+            <td class="url">
+              <a
+                target="_blank"
+                href="http://www.town.kozagawa.wakayama.jp/2020info/index.html"
+                >http://www.town.kozagawa.wakayama.jp/2020info/index.html</a
+              >
+            </td>
+          </tr>
+          <tr>
+            <td class="content" v-bind="headingAttrs">太地町</td>
+            <td class="url">
+              <a
+                target="_blank"
+                href="http://www.town.taiji.wakayama.jp/kairan/%E5%A4%AA%E5%9C%B0%E7%94%BA%E5%9B%9E%E8%A6%A7.files/R2%E5%B9%B4%E5%BA%A6%E5%88%86/R2.4.10%E5%88%86%E5%9B%9E%E8%A6%A7/%E6%96%B0%E5%9E%8B%E3%82%B3%E3%83%AD%E3%83%8A%E3%82%A6%E3%82%A4%E3%83%AB%E3%82%B9%E6%84%9F%E6%9F%93%E7%97%87%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6.pdf"
+                >http://www.town.taiji.wakayama.jp/kairan/%E5%A4%AA%E5%9C%B0%E7%94%BA%E5%9B%9E%E8%A6%A7.files/R2%E5%B9%B4%E5%BA%A6%E5%88%86/R2.4.10%E5%88%86%E5%9B%9E%E8%A6%A7/%E6%96%B0%E5%9E%8B%E3%82%B3%E3%83%AD%E3%83%8A%E3%82%A6%E3%82%A4%E3%83%AB%E3%82%B9%E6%84%9F%E6%9F%93%E7%97%87%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6.pdf</a
+              >
+            </td>
+          </tr>
+          <tr>
+            <td class="content" v-bind="headingAttrs">すさみ町</td>
+            <td class="url">
+              <a
+                target="_blank"
+                href="http://www.town.susami.lg.jp/docs/2020022700014/"
+                >http://www.town.susami.lg.jp/docs/2020022700014/</a
+              >
+            </td>
+          </tr>
+          <tr>
+            <td class="content" v-bind="headingAttrs">上富田町</td>
+            <td class="url">
+              <a
+                target="_blank"
+                href="http://www.town.kamitonda.lg.jp/kurashi/kenko_fukushi/3024.html"
+                >http://www.town.kamitonda.lg.jp/kurashi/kenko_fukushi/3024.html</a
+              >
+            </td>
+          </tr>
+          <tr>
+            <td class="content" v-bind="headingAttrs">みなべ町</td>
+            <td class="url">
+              <a
+                target="_blank"
+                href="http://www.town.minabe.lg.jp/docs/2020040100018/"
+                >http://www.town.minabe.lg.jp/docs/2020040100018/</a
+              >
+            </td>
+          </tr>
+          <tr>
+            <td class="content" v-bind="headingAttrs">由良町</td>
+            <td class="url">
+              <a
+                target="_blank"
+                href="http://www.town.yura.wakayama.jp/docs/2020021400014/"
+                >http://www.town.yura.wakayama.jp/docs/2020021400014/</a
+              >
+            </td>
+          </tr>
+          <tr>
+            <td class="content" v-bind="headingAttrs">日高町</td>
+            <td class="url">
+              <a
+                target="_blank"
+                href="http://www.town.wakayama-hidaka.lg.jp/docs/2020041300035/"
+                >http://www.town.wakayama-hidaka.lg.jp/docs/2020041300035/</a
+              >
+            </td>
+          </tr>
+          <tr>
+            <td class="content" v-bind="headingAttrs">美浜町</td>
+            <td class="url">
+              <a
+                target="_blank"
+                href="http://www.town.mihama.wakayama.jp/docs/2020020400015/"
+                >http://www.town.mihama.wakayama.jp/docs/2020020400015/</a
+              >
+            </td>
+          </tr>
+          <tr>
+            <td class="content" v-bind="headingAttrs">広川町</td>
+            <td class="url">
+              <a
+                target="_blank"
+                href="https://www.town.hirogawa.wakayama.jp/soumu/corona-virus.html"
+                >https://www.town.hirogawa.wakayama.jp/soumu/corona-virus.html</a
+              >
+            </td>
+          </tr>
+          <tr>
+            <td class="content" v-bind="headingAttrs">湯浅町</td>
+            <td class="url">
+              <a target="_blank" href="http://www.town.yuasa.wakayama.jp/"
+                >http://www.town.yuasa.wakayama.jp/</a
+              >
+            </td>
+          </tr>
+          <tr>
+            <td class="content" v-bind="headingAttrs">高野町</td>
+            <td class="url">
+              <a
+                target="_blank"
+                href="http://www.town.koya.wakayama.jp/town/korona/12746.html"
+                >http://www.town.koya.wakayama.jp/town/korona/12746.html</a
+              >
+            </td>
+          </tr>
+          <tr>
+            <td class="content" v-bind="headingAttrs">九度山町</td>
+            <td class="url">
+              <a
+                target="_blank"
+                href="https://www.town.kudoyama.wakayama.jp/jumin/2020-0131-sinngatakoronauirusu.html"
+                >https://www.town.kudoyama.wakayama.jp/jumin/2020-0131-sinngatakoronauirusu.html</a
+              >
+            </td>
+          </tr>
+          <tr>
+            <td class="content" v-bind="headingAttrs">かつらぎ町</td>
+            <td class="url">
+              <a target="_blank" href="http://www.town.katsuragi.wakayama.jp/"
+                >http://www.town.katsuragi.wakayama.jp/</a
+              >
+            </td>
+          </tr>
+          <tr>
+            <td class="content" v-bind="headingAttrs">橋本市</td>
+            <td class="url">
+              <a
+                target="_blank"
+                href="http://www.city.hashimoto.lg.jp/importantnotices/9657.html"
+                >http://www.city.hashimoto.lg.jp/importantnotices/9657.html</a
+              >
+            </td>
+          </tr>
+          <tr>
+            <td class="content" v-bind="headingAttrs">海南市</td>
+            <td class="url">
+              <a
+                target="_blank"
+                href="http://www.city.kainan.lg.jp/important/1583226273505.html"
+                >http://www.city.kainan.lg.jp/important/1583226273505.html</a
+              >
             </td>
           </tr>
         </tbody>
@@ -203,8 +373,8 @@ export default Vue.extend({
           height: 96px;
         }
 
-        th.tel {
-          width: 35%;
+        th.url {
+          width: 70%;
         }
         th,
         tr:not(:last-child) {
@@ -235,11 +405,7 @@ export default Vue.extend({
               padding-bottom: 8px;
             }
 
-            .bureau {
-              border-bottom: none !important;
-            }
-
-            .tel {
+            .url {
               padding-bottom: 12px;
             }
           }
