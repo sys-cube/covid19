@@ -37,10 +37,10 @@ type ConfirmedCasesType = {
   検査実施人数: number
   陽性者数: number
   入院中: number
-  軽症中等症: number
-  重症: number
   死亡: number
   退院: number
+  経過観察中: number
+  社会復帰: number
 }
 
 /**
