@@ -62,7 +62,7 @@
             </picture>
           </a>
           <a
-            href="https://twitter.com/wakayamapref"
+            href="https://twitter.com/tokyo_bousai"
             target="_blank"
             rel="noopener noreferrer"
             class="SideNavigation-SocialLink"
@@ -73,7 +73,7 @@
             </picture>
           </a>
           <a
-            href="https://www.facebook.com/pref.wakayama"
+            href="https://www.facebook.com/tochokoho"
             target="_blank"
             rel="noopener noreferrer"
             class="SideNavigation-SocialLink"
