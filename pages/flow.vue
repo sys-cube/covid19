@@ -9,7 +9,7 @@
     <div>
       <div class="Flow-Card-Button-Wrapper">
         <a
-          href="https://www.fukushihoken.metro.tokyo.lg.jp/iryo/kansen/coronasodan.html"
+          href="https://www.pref.wakayama.lg.jp/prefg/041200/d00203179.html"
           target="_blank"
           rel="noopener noreferrer"
           class="Flow-Card-Button"
