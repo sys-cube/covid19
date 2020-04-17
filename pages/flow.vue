@@ -5,6 +5,7 @@
       <page-header class="Flow-Heading-Title">
         {{ $t('新型コロナウイルス感染症が心配なときに') }}
       </page-header>
+      <printer-button :wrapper-class="'Flow-PullRight'" to="/print/flow" />
     </div>
     <div>
       <div class="Flow-Card-Button-Wrapper">
@@ -14,13 +15,22 @@
           rel="noopener noreferrer"
           class="Flow-Card-Button"
         >
+          <span class="Flow-Card-Button-Description">
+            {{ $t('かかりつけ医に相談することもできます。') }}<br />
+            {{ $t('詳しくはこちらをご参照ください。') }}
+          </span>
           {{ $t('詳細を見る（東京都福祉保健局）') }}
           <v-icon class="Flow-Card-Button-ExternalLinkIcon" size="20">
             mdi-open-in-new
           </v-icon>
         </a>
       </div>
-      <flow-pc />
+      <div class="only-pc" aria-hidden="true">
+        <flow-pc />
+      </div>
+      <div class="only-sp">
+        <flow-sp />
+      </div>
     </div>
   </div>
 </template>
@@ -29,14 +39,18 @@
 import Vue from 'vue'
 import { TranslateResult } from 'vue-i18n'
 import CovidIcon from '@/static/covid.svg'
+import PrinterButton from '@/components/PrinterButton.vue'
 import FlowPc from '@/components/flow/FlowPc.vue'
+import FlowSp from '@/components/flow/FlowSp.vue'
 import PageHeader from '@/components/PageHeader.vue'
 
 export default Vue.extend({
   components: {
     CovidIcon,
     PageHeader,
-    FlowPc
+    PrinterButton,
+    FlowPc,
+    FlowSp
   },
   head(): any {
     const title: TranslateResult = this.$t(
@@ -107,6 +121,22 @@ export default Vue.extend({
 
   &-PullRight {
     margin: 0 0 0 auto;
+  }
+}
+
+@include largerThan($medium) {
+  .only-sp {
+    @include visually-hidden;
+  }
+
+  .only-pc {
+    display: block;
+  }
+}
+
+@include lessThan($medium) {
+  .only-pc {
+    display: none;
   }
 }
 </style>
