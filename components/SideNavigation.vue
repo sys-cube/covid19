@@ -34,7 +34,7 @@
       </v-icon>
 
       <nav class="SideNavigation-Menu">
-        <div class="SideNavigation-Language">
+        <div class="SideNavigation-Language" style="display: none;">
           <div
             v-if="this.$i18n.locales.length > 1"
             class="SideNavigation-Language"
