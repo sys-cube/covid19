@@ -8,10 +8,10 @@
       <table>
         <tbody>
           <tr>
-            <td />
-            <td>住所</td>
-            <td>連絡先</td>
-            <td>受付時間（平日）</td>
+            <th />
+            <th>住所</th>
+            <th>連絡先</th>
+            <th>受付時間（平日）</th>
           </tr>
           <tr>
             <td>県庁健康推進課</td>
@@ -24,7 +24,7 @@
             <td>和歌山市吹上5－2－15</td>
             <td>TEL 073－488－5112<br />FAX 073－431－9980</td>
             <td>
-              <p>9:00～<strong>17:45</strong></p>
+              <p>9:00～17:45</p>
             </td>
           </tr>
           <tr>
@@ -84,20 +84,13 @@
           <tr>
             <td>新宮保健所</td>
             <td>新宮市緑ヶ丘2－4－8</td>
-            <td>
-              <p>TEL 0735－21－9630</p>
-              FAX 0735－21－9639
-            </td>
+            <td>TEL 0735－21－9630<br />FAX 0735－21－9639</td>
             <td>9:00～17:45</td>
           </tr>
           <tr>
             <td>新宮保健所串本支所</td>
             <td>東牟婁郡串本町西向193</td>
-            <td>
-              <p>TEL 0735－72－0525</p>
-
-              <p>FAX 0735－72－2739</p>
-            </td>
+            <td>TEL 0735－72－0525<br />FAX 0735－72－2739</td>
             <td>9:00～17:45</td>
           </tr>
         </tbody>
@@ -207,6 +200,9 @@ table {
   width: 100%;
   border-collapse: collapse;
   border: 2px solid #008830;
+  th {
+    background: rgba(217, 217, 217, 0.3);
+  }
   th,
   td {
     border: 2px solid #008830;
