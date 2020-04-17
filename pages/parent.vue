@@ -4,15 +4,6 @@
       {{ $t('臨時休校中の新型コロナウイルス感染症対応についてのお願い') }}
     </page-header>
     <static-card>
-      <h3>
-        <external-link
-          url="https://www.kyoiku.metro.tokyo.lg.jp/school/content/learning_support.html"
-          :icon-size="24"
-          >{{ $t('学びの支援サイト') }}
-        </external-link>
-      </h3>
-    </static-card>
-    <static-card>
       <h3>{{ $t('感染予防・健康管理') }}</h3>
       <ul>
         <li>
@@ -26,9 +17,9 @@
           {{ $t('手洗い、咳エチケット等により、感染予防に努めてください。')
           }}<br />
           <external-link
-            url="https://tokyodouga.jp/lViN9C_BS-0.html"
+            url="https://www.mhlw.go.jp/content/10900000/000593494.pdf"
             :icon-size="16"
-            >{{ $t('【参考】感染症予防のための正しい手洗い方法（動画）') }}
+            >{{ $t('【参考】手洗いについて（厚生労働省）（外部リンク）') }}
           </external-link>
         </li>
         <li>
@@ -48,7 +39,7 @@
           {{ $t('各保健所の電話番号について') }}
           <br />
           <external-link
-            url="https://www.fukushihoken.metro.tokyo.lg.jp/iryo/kansen/coronasodan.html"
+            url="https://www.pref.wakayama.lg.jp/prefg/041200/d00203179.html#%E7%9B%B8%E8%AB%87%E7%AA%93%E5%8F%A3%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6"
             :icon-size="16"
             >{{ $t('「新型コロナウイルス感染症にかかる相談窓口について」') }}
           </external-link>

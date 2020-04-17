@@ -173,16 +173,6 @@ export default Vue.extend({
           link:
             'https://www.pref.wakayama.lg.jp/prefg/000200/pressindex.html'
         },
-        // {
-        //   title: this.$t('新型コロナウイルス感染症に関する和歌山県の支援策'),
-        //   link:
-        //     'https://www.seisakukikaku.metro.tokyo.lg.jp/information/corona-support.html'
-        // },
-        // {
-        //   title: this.$t('和歌山県主催等 中止又は延期するイベント等'),
-        //   link:
-        //     'https://www.seisakukikaku.metro.tokyo.lg.jp/information/event00.html'
-        // },
         {
           title: this.$t('知事からのメッセージ'),
           link:
