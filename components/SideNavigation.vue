@@ -51,6 +51,17 @@
       <footer class="SideNavigation-Footer">
         <div class="SideNavigation-Social">
           <a
+            href="https://line.me/R/ti/p/%40510gbohp"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="SideNavigation-SocialLink"
+          >
+            <picture>
+              <source srcset="/line.webp" type="image/webp" />
+              <img src="/line.png" alt="LINE" />
+            </picture>
+          </a>
+          <a
             href="https://twitter.com/wakayamapref"
             target="_blank"
             rel="noopener noreferrer"
@@ -81,17 +92,6 @@
             <picture>
               <source srcset="/github.webp" type="image/webp" />
               <img src="/github.png" alt="GitHub" />
-            </picture>
-          </a>
-          <a
-            href="https://line.me/R/ti/p/%40510gbohp"
-            target="_blank"
-            rel="noopener noreferrer"
-            class="SideNavigation-SocialLink"
-          >
-            <picture>
-              <source srcset="/line.webp" type="image/webp" />
-              <img src="/line.png" alt="LINE" />
             </picture>
           </a>
         </div>
