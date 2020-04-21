@@ -2957,18 +2957,18 @@
             }
         ]
     },
-    "lastUpdate": "2020\/04\/21 10:25",
+    "lastUpdate": "2020\/04\/21 19:28",
     "main_summary": {
         "attr": "検査実施人数",
-        "value": 2365,
+        "value": 2381,
         "children": [
             {
                 "attr": "陽性患者数",
-                "value": 46,
+                "value": 47,
                 "children": [
                     {
                         "attr": "入院中",
-                        "value": 23
+                        "value": 24
                     },
                     {
                         "attr": "退院",
