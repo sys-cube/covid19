@@ -11,7 +11,6 @@
             'ページが移動または削除されたか、URLの入力間違いの可能性があります。'
           )
         }}
-        {{ $t('もっとわかりやすくテスト') }}
       </p>
       <div class="Error-ButtonContainer">
         <nuxt-link :to="localePath('/')" class="Error-Button">
