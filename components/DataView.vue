@@ -311,12 +311,16 @@ export default Vue.extend({
       const [self, side] = this.cardElements
 
       self.dataset.height = self.dataset.height || String(self.offsetHeight)
-      side.dataset.height = side.dataset.height || String(side.offsetHeight)
+      if (side) {
+        side.dataset.height = side.dataset.height || String(side.offsetHeight)
+      }
 
       self.style.height =
         self.style.height === `auto` ? `${self.dataset.height}px` : 'auto'
-      side.style.height =
-        side.style.height === 'auto' ? 'auto' : `${side.dataset.height}px`
+      if (side) {
+        side.style.height =
+          side.style.height === 'auto' ? 'auto' : `${side.dataset.height}px`
+      }
     }
   }
 })
