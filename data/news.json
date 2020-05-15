@@ -1,6 +1,11 @@
 {
     "newsItems": [
       {
+            "date": "2020\/05\/15",
+            "url": "https:\/\/www.pref.wakayama.lg.jp\/prefg\/011900\/d00204252.html",
+            "text": " 緊急事態宣言が解除されたことに伴う県民の皆様へのお願い（第7弾)"
+        },
+      {
             "date": "2020\/05\/04",
             "url": "https:\/\/www.pref.wakayama.lg.jp\/prefg\/011900\/d00204177.html",
             "text": " 緊急事態宣言が延長されたことに伴う県民の皆様へのお願い（第6弾）～緊急事態措置の延長等～"
