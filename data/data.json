@@ -2944,10 +2944,10 @@
             }
         ]
     },
-    "lastUpdate": "2020\/07\/06 10:40",
+    "lastUpdate": "2020\/07\/06 10:45",
     "main_summary": {
         "attr": "検査実施人数",
-        "value": 4066,
+        "value": 4054,
         "children": [
             {
                 "attr": "陽性患者数",
@@ -2959,7 +2959,7 @@
                     },
                     {
                         "attr": "退院",
-                        "value": 1,
+                        "value": 61,
                         "children": [
                             {
                                 "attr": "経過観察中",
