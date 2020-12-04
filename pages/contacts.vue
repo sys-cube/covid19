@@ -37,8 +37,8 @@
             <td class="url">
               <a
                 target="_blank"
-                href="https://www.city.shingu.lg.jp/forms/info/info.aspx?info_id=46299"
-                >https://www.city.shingu.lg.jp/forms/info/info.aspx?info_id=46299</a
+                href="https://www.city.shingu.lg.jp/forms/menugrouptop/menugrouptop.aspx?menugroup_id=415"
+                >https://www.city.shingu.lg.jp/forms/menugrouptop/menugrouptop.aspx?menugroup_id=415</a
               >
             </td>
           </tr>
