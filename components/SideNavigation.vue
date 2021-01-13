@@ -163,6 +163,10 @@ export default Vue.extend({
           divider: true
         },
         {
+          title: this.$t('新型コロナウイルス和歌山県内累計グラフ'),
+          link: 'https://877.fm/covid19/index.php'
+        },
+        {
           title: this.$t('東京都新型コロナウイルス感染症対策本部報'),
           link: 'https://www.pref.wakayama.lg.jp/prefg/000200/pressindex.html'
         },
