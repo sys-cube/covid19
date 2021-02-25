@@ -12,6 +12,9 @@
       開発は、<a href="https://www.sys-cube.co.jp/" target="_blank"
         >システムキューブ</a
       >によって行われています。<br />
+      人数更新等の運用は<a href="https://877.fm/" target="_blank"
+        >エフエム和歌山</a
+      >によって行われています。
       <br />
       {{
         $t(
