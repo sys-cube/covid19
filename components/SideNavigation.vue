@@ -106,6 +106,22 @@
             </picture>
           </a>
         </div>
+        <div class="mt-3">
+          <div class="mb-2">
+            <a href="https://www.sys-cube.co.jp/" target="_blank">
+              <picture>
+                <img src="/SC_LOGO_1W.png" alt="システムキューブ" />
+              </picture>
+            </a>
+          </div>
+          <div>
+            <a href="https://877.fm/" target="_blank">
+              <picture>
+                <img src="/fm_wakayama.jpg" alt="エフエム和歌山" />
+              </picture>
+            </a>
+          </div>
+        </div>
         <small class="SideNavigation-Copyright">
           {{ $t('このサイトの内容物は') }}
           <a
