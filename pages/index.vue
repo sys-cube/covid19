@@ -35,7 +35,7 @@
       <telephone-advisory-reports-number-card />
     </v-row>
     <v-divider />
-    <div class="mt-3">
+    <div class="mt-3 WhatsNew">
       <p>
         当サイトは和歌山県内の新型コロナウイルス感染症に関連する発生状況・対応状況について随時更新しております。
       </p>
