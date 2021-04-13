@@ -226,7 +226,7 @@ $default-boxdiff: 35px;
   &.recovered {
     margin-left: $default-bdw;
     // [5列] 1/5
-    width: calc(100% / 5 - #{$default-bdw});
+    width: calc(200% / 5 - #{$default-bdw});
   }
 }
 
@@ -349,7 +349,7 @@ $default-boxdiff: 35px;
     &.deceased,
     &.recovered {
       margin-left: px2vw($bdw, $vw);
-      width: calc(100% / 5 - #{px2vw($bdw, $vw)});
+      width: calc(200% / 5 - #{px2vw($bdw, $vw)});
     }
   }
 }
