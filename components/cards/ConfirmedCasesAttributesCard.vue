@@ -53,7 +53,6 @@ export default {
     for (const row of patientsTable.datasets) {
       row['居住地'] = this.getTranslatedWording(row['居住地'])
       row['性別'] = this.getTranslatedWording(row['性別'])
-      row['退院'] = this.getTranslatedWording(row['退院'])
 
       if (row['年代'].substr(-1, 1) === '代') {
         const age = row['年代'].substring(0, 2)
