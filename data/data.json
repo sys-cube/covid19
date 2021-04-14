@@ -20363,22 +20363,22 @@
             }
         ]
     },
-    "lastUpdate": "2021\/04\/14 18:36",
+    "lastUpdate": "2021\/04\/14 18:50",
     "main_summary": {
         "attr": "検査実施人数",
-        "value": 28754,
+        "value": 29191,
         "children": [
             {
                 "attr": "陽性患者数",
-                "value": 1559,
+                "value": 1633,
                 "children": [
                     {
                         "attr": "入院中",
-                        "value": 227
+                        "value": 259
                     },
                     {
                         "attr": "退院",
-                        "value": 1287,
+                        "value": 1329,
                         "children": [
                             {
                                 "attr": "経過観察中",
